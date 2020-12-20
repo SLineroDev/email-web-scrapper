@@ -1,0 +1,17 @@
+{
+	"name": "email-web-scrapper",
+	"version": "1.0.0",
+	"description": "Bot para optener emails de empresas",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"debug": "node inspect index.js"
+	},
+	"author": "Sergio Linero",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.21.0",
+		"cheerio": "^1.0.0-rc.3",
+		"exceljs": "^4.2.0"
+	}
+}
